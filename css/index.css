@@ -9,11 +9,16 @@ body {
     padding: 0;
 }
 
+/* start wrapper */
+
 #wrapper {
     height: 100%;
     width: 1200px;
     margin: auto;
 }
+/* eind wrapper */
+
+/* start navigatie */
 
 #nav {
     height: auto;
@@ -36,6 +41,9 @@ body {
     text-decoration: none;
     padding-right: 30px;
 }
+/* eind navigatie */
+
+/* start container */
 
 .container {
     width: 100%;
@@ -54,6 +62,10 @@ body {
     line-height: 25px;
     margin-right: 10px;
 }
+
+/* eind container */
+
+/* start footer */
 
 #footer {
     background-color: grey;
@@ -85,3 +97,4 @@ body {
 #footer p {
     text-align: center;
 }
+/* eind footer */
