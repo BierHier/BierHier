@@ -7,6 +7,7 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 /* start wrapper */
@@ -16,8 +17,11 @@ body {
     width: 1200px;
     margin: auto;
 }
-/* eind wrapper */
-
+/* einde wrapper */
+#header{
+    width: 100%;
+    height: 50px;
+}
 /* start navigatie */
 
 #nav {
@@ -40,8 +44,9 @@ body {
     color: white;
     text-decoration: none;
     padding-right: 30px;
+    font-family: 'Muli', sans-serif;
 }
-/* eind navigatie */
+/* einde navigatie */
 
 /* start container */
 
@@ -59,44 +64,53 @@ body {
 .Stage_Almere {
     width: 30%;
     float: right;
-    line-height: 25px;
     margin-right: 10px;
 }
 
-/* eind container */
+/* einde container */
 
 /* start footer */
 
-#footer {
+.footer {
     background-color: grey;
     float: left;
     width: 100%;
     padding: 0 10px 10px;
     color: white;
+    font-family: 'Muli', sans-serif;
 }
-
-#footer img {
-    width: 200px;
-    float: right;
-    padding: 10px;
-    padding-top: 0;
-}
-
-#footer ul {
-    list-style-type: none;
-    margin: 10px;
-    padding: 10px;
-    padding-top: 0;
-}
-
-#footer li a {
-    text-decoration: none;
-    padding-right: 30px;
-    color: white;
-}
-
-#footer p {
+.footer p {
     text-align: center;
 }
-eskjefh
-/* eind footer */
+.footer-content {
+    display: inline-block;
+    height: auto;
+    padding-top: 10px;
+    text-align: center;
+    vertical-align: top;
+    width: 100px;
+}
+
+.footer-content ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+.footer-content a{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 0;
+}
+.footer-content li a{
+    text-align: center;
+    padding-left: 0;
+    font-size: small;
+}
+.footer-logo-container {
+    margin-top:20px;
+    height: auto;
+    padding-left: 20px;
+    float:right;
+}
+/* einde footer */
