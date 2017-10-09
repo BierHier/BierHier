@@ -1,0 +1,100 @@
+/* Made by: Mandy Leegwater */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* start wrapper */
+
+#wrapper {
+    height: 100%;
+    width: 1200px;
+    margin: auto;
+}
+/* eind wrapper */
+
+/* start navigatie */
+
+#nav {
+    height: auto;
+    width: 100%;
+    background-color: blue;
+}
+
+#nav ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+}
+
+#nav li {
+    display: inline;
+}
+
+#nav li a {
+    color: black;
+    text-decoration: none;
+    padding-right: 30px;
+}
+/* eind navigatie */
+
+/* start container */
+
+.container {
+    width: 100%;
+    height: 800px;
+}
+
+.Nieuws_Almere {
+    float: left;
+    width: 750px;
+    margin-left: 10px;
+}
+
+.Stage_Almere {
+    width: 30%;
+    float: right;
+    line-height: 25px;
+    margin-right: 10px;
+}
+
+/* eind container */
+
+/* start footer */
+
+#footer {
+    background-color: grey;
+    float: left;
+    width: 100%;
+    padding: 0 10px 10px;
+}
+
+#footer img {
+    width: 200px;
+    float: right;
+    padding: 10px;
+    padding-top: 0;
+}
+
+#footer ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    padding-top: 0;
+}
+
+#footer li a {
+    color: black;
+    text-decoration: none;
+    padding-right: 30px;
+}
+
+#footer p {
+    text-align: center;
+}
+/* eind footer */
