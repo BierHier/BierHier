@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
     background-color: #a2a2a2;
 }
@@ -56,7 +60,7 @@ div.footer1 {
 }
 
 div.footer2 {
-    margin-left: 20%;
+    margin-left: 17%;
 }
 
 p.footer3 {
@@ -65,7 +69,8 @@ p.footer3 {
 
 div.footer4 {
     background-color: #6FA8DD;
-    height: 310px;"
+    height: 310px;
+"
 }
 
 div.tekst {
@@ -90,4 +95,62 @@ p.copy {
 ul.grid {
     display: inline-grid;
     margin-left: 100px;
+}
+
+/*
+Responsive gedeelte
+*/
+
+@media screen and (max-width: 800px) {
+    body {
+        width: 750px;
+    }
+
+    div.tekst {
+        float: left;
+        margin-left: 25%;
+        margin-top: 5%;
+    }
+
+    ul.grid {
+        margin-left: 47%;
+    }
+
+    b {
+        margin-left: 45%;
+    }
+
+    ul {
+        display: grid;
+    }
+
+    img {
+        width: 400px;
+        display: grid;
+    }
+
+    div.foto {
+        width: 0px;
+        margin-left: 25%;
+    }
+
+    div.footer1 {
+        margin-left: 176px;
+    }
+
+    div.footer2 {
+        margin-top: 189px;
+    }
+
+    div.footer2 h3 a {
+        margin-left: 60px;
+    }
+
+    div.footer4 {
+        margin-top: 410px;
+    }
+
+    p.footer3 {
+        margin-left: 60px;
+    }
 }
