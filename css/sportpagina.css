@@ -1,3 +1,7 @@
+html {
+    background-color: #a2a2a2;
+}
+
 body {
     font-family: "Open Sans";
     width: 1550px;
@@ -5,10 +9,18 @@ body {
     background-color: white;
 }
 
+div.foto {
+    width: 1072px;
+}
+
 a {
     text-decoration: none;
     margin: 10px;
     margin-top: 10px;
+}
+
+b {
+    margin-left: 20px;
 }
 
 ul {
@@ -33,4 +45,49 @@ li a {
 
 li a:hover {
     background-color: #5886b0;
+}
+
+img {
+    width: 250px;
+}
+
+div.footer1 {
+    float: left;
+}
+
+div.footer2 {
+    margin-left: 20%;
+}
+
+p.footer3 {
+    margin-left: 139px;
+}
+
+div.footer4 {
+    background-color: #6FA8DD;
+    height: 310px;"
+}
+
+div.tekst {
+    margin-top: -57%;
+    float: right;
+    margin-right: 50px;
+}
+
+p {
+    margin-left: 10px;
+}
+
+h3.footerlink {
+    color: #003569;
+}
+
+p.copy {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+ul.grid {
+    display: inline-grid;
+    margin-left: 100px;
 }
