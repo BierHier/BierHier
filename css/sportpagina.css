@@ -1,5 +1,8 @@
 body {
     font-family: "Open Sans";
+    width: 1550px;
+    margin: auto;
+    background-color: white;
 }
 
 a {
@@ -25,11 +28,9 @@ li a {
     display: block;
     color: #003569;
     text-align: center;
-    padding: 16px;
     text-decoration: none;
 }
 
 li a:hover {
     background-color: #5886b0;
 }
-
