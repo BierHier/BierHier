@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
     <meta charset="UTF-8">
     <title>Concerten</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 <!-- Body start -->
 <body>
@@ -17,10 +17,35 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </div>
-    <div id="img">
+    <div class="contentleft">
+        <img alt="" href=""/>
+        <h3>En meer....</h3>
+        <img class="mySlides" src="HTML5 Scrum periode 1 2017/img/concerten/queen-1200.jpg">
+        <img class="mySlides" src="HTML5 Scrum periode 1 2017/img/concerten/bocelli-1200.jpg">
+        <img class="mySlides" src="HTML5 Scrum periode 1 2017/img/concerten/amon_amarth-1200.jpg">
+        <img class="mySlides" src="HTML5 Scrum periode 1 2017/img/concerten/rapalje-1200.jpg">
+
+        <script>
+            var slideIndex = 0;
+            carousel();
+
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                slideIndex++;
+                if (slideIndex > x.length) {slideIndex = 1}
+                x[slideIndex-1].style.display = "block";
+                setTimeout(carousel, 3000); // Change image every 2 seconds
+            }
+        </script>
+
+        
 
     </div>
-    <div class="content">
+    <div class="contentright">
         <h1>Concerten</h1>
         <h3>Overzicht met concerten in Amsterdam en Almere</h3>
         <table>
@@ -33,7 +58,7 @@
             <tr>
                 <td>20-10-2017</td>
                 <td>Zaterdag 20:00</td>
-                <td>The Charm The Fury</td>
+                <td><a href="http://demeesteralmere.nl/">The Charm The Fury</a></td>
                 <td></td>
             </tr>
             <tr>
@@ -51,7 +76,7 @@
             <tr>
                 <td>27-10-2017</td>
                 <td>Vrijdag 20:00</td>
-                <td>DJ Arnstein - Slam!Mix</td>
+                <td><a href="http://demeesteralmere.nl/">DJ Arnstein - Slam!Mix</a></td>
                 <td></td>
             </tr>
             <tr>
@@ -87,13 +112,13 @@
             <tr>
                 <td>04-11-2017</td>
                 <td>Zaterdag 20:00</td>
-                <td><a href="">Celt-N-Folk XIII: Cesair + Seed + Emian</a></td>
+                <td><a href="http://demeesteralmere.nl/">Celt-N-Folk XIII: Cesair + Seed + Emian</a></td>
                 <td></td>
             </tr>
             <tr>
                 <td>07-11-2017</td>
                 <td>Zaterdag 20:00</td>
-                <td><a href="">CCC Inc.</a></td>
+                <td><a href="http://demeesteralmere.nl/">CCC Inc.</a></td>
                 <td></td>
             </tr>
             <tr>
@@ -105,13 +130,13 @@
             <tr>
                 <td>10-11-2017</td>
                 <td>Vrijdag 19:30</td>
-                <td>British Metal Clash</td>
+                <td><a href="http://demeesteralmere.nl/">British Metal Clash</a></td>
                 <td></td>
             </tr>
             <tr>
                 <td>11-11-2017</td>
                 <td>Zaterdag 20:00</td>
-                <td><a href="">CCC Inc.</a></td>
+                <td><a href="http://demeesteralmere.nl/">Guus Meeuwis</a></td>
                 <td></td>
             </tr>
             <tr>
@@ -129,10 +154,9 @@
             <tr>
                 <td>17-11-2017</td>
                 <td>Vrijdag 21:00</td>
-                <td>Rapalje</td>
+                <td><a href="http://demeesteralmere.nl/">Rapalje</a></td>
                 <td></td>
             </tr>
-
         </table>
     </div>
 </div>
