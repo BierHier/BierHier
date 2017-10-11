@@ -46,6 +46,15 @@ body {
     padding-right: 30px;
     font-family: 'Muli', sans-serif;
 }
+@media all and (max-width: 400px) {
+    #nav li{
+        display: block;
+        text-align: center;
+    }
+    #nav {
+        width: 400px;
+    }
+}
 /* einde navigatie */
 
 /* start container */
@@ -66,7 +75,21 @@ body {
     float: right;
     margin-right: 10px;
 }
-
+@media all and (max-width: 400px) {
+    #container{
+        width: 400px;
+    }
+    iframe{
+        width: 350px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .Stage_Almere{
+        width: 350px;
+        float: none;
+        margin-left: 10px;
+    }
+}
 /* einde container */
 
 /* start footer */
@@ -113,4 +136,19 @@ body {
     padding-left: 20px;
     float:right;
 }
+@media all and (max-width: 400px) {
+    .footer{
+        width: 400px;
+    }
+    .footer-content{
+        width: 400px;
+    }
+}
+
 /* einde footer */
+
+@media all and (min-width: 1200px) {
+    #wrapper {
+        width: 1200px;
+    }
+}
