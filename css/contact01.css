@@ -1,0 +1,95 @@
+/* CSS contact Mark Jeff van Haastert */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eaf6fa;
+    font-family: 'Manuale';
+}
+
+/* start style navigatie balk */
+
+#nav ul{
+    font-family: 'Raleway' , sans-serif;
+    text-decoration:none;
+    list-style-type: none;
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    color: #003569;
+    background-color: #6FA8DD;
+    border: none;
+}
+
+#nav li:active {
+    background-color: #5886b0;
+    transform: translateY(4px);
+    color: #003569;
+}
+
+#nav a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* einde style navigatie balk */
+
+#googlemap {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#adresgegevens {
+    line-height: 25px;
+    margin-right: 10px;
+}
+
+/* start style footer */
+
+#footer {
+    background-color: grey;
+    width: 100%;
+    padding: 0 10px 10px;
+
+}
+
+#footer h3{
+    text-align: center;
+}
+
+#footer img {
+    width: 200px;
+    padding: 10px;
+    padding-top: 0;
+    display: block;
+    margin:auto;
+}
+
+#footer ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    padding-top: 0;
+    text-align: center;
+}
+
+#footer li a {
+    color: black;
+    text-decoration: none;
+    padding-right: 30px;
+
+}
+
+#footer p {
+    text-align: center;
+}
+/* eind einde footer */
+
+
+/* Tablet 400px */
+
+/* pc 800px */
