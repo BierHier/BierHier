@@ -7,11 +7,12 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Raleway', sans-serif;
 }
 
 /* start contact wrapper */
 
-#contactwrapper {
+#wrapper {
     height: 100%;
     width: 1200px;
     margin: auto;
