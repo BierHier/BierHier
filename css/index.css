@@ -8,6 +8,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Noto Sans', sans-serif;
+    background-color: #e7e5eb;
 }
 
 /* start wrapper */
@@ -16,6 +17,7 @@ body {
     height: 100%;
     width: 1200px;
     margin: auto;
+    background-color: white;
 }
 
 @media all and(max-width: 400px){
@@ -26,14 +28,28 @@ body {
         width: 400px;
     }
 }
+@media all and(max-width: 800px) and (min-width: 400px){
+    body{
+        width: 800px;
+    }
+    #wrapper{
+        width: 800px;
+    }
+}
+
 /* einde wrapper */
 #header{
     width: 100%;
-    height: 50px;
+    height: 150px;
 }
 @media all and(max-width: 400px){
     #header{
         width: 400px;
+    }
+}
+@media all and(max-width: 800px) and (min-width: 400px){
+    #header{
+        width: 800px;
     }
 }
 /* start navigatie */
@@ -46,8 +62,8 @@ body {
 
 #nav ul {
     list-style-type: none;
-    margin: 10px;
     padding: 10px;
+    margin:0;
 }
 
 #nav li {
@@ -60,6 +76,9 @@ body {
     padding-right: 30px;
     font-family: 'Muli', sans-serif;
 }
+#nav li a:hover {
+    background-color: #111;
+}
 @media all and (max-width: 400px) {
     #nav li{
         display: block;
@@ -67,6 +86,15 @@ body {
     }
     #nav {
         width: 400px;
+    }
+}
+@media all and (max-width: 800px) and (min-width: 400px) {
+    #nav li{
+        display: inline;
+        text-align: center;
+    }
+    #nav {
+        width: 800px;
     }
 }
 /* einde navigatie */
@@ -80,14 +108,18 @@ body {
 
 .Nieuws_Almere {
     float: left;
-    width: 750px;
-    margin-left: 10px;
+    width: 70%;
+    padding-left: 10px;
+    background-color: lightblue;
+    height: 100%;
 }
 
 .Stage_Almere {
     width: 30%;
     float: right;
-    margin-right: 10px;
+    padding-right: 10px;
+    background-color: lightblue;
+    height: 100%;
 }
 @media all and (max-width: 400px) {
     #container{
@@ -100,6 +132,21 @@ body {
     }
     .Stage_Almere{
         width: 350px;
+        float: none;
+        margin-left: 10px;
+    }
+}
+@media all and (max-width: 800px) and (min-width: 400px) {
+    #container{
+        width: 800px;
+    }
+    iframe{
+        width: 760px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .Stage_Almere{
+        width: 760px;
         float: none;
         margin-left: 10px;
     }
@@ -156,6 +203,14 @@ body {
     }
     .footer-content{
         width: 180px;
+    }
+}
+@media all and (max-width: 800px) and (min-width: 400px){
+    .footer{
+        width: 800px;
+    }
+    .footer-content{
+        width: 380px;
     }
 }
 

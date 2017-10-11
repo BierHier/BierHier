@@ -1,10 +1,62 @@
+/* Body */
+
+body {
+    height: 100%;
+    width: 1200px;
+    margin: auto;
+    background-color: white;
+}
+
 /* Nav */
 
 
 #nav {
+    height: auto;
+    width: 100%;
     background-color: blue;
+}
+
+#nav ul {
+    list-style-type: none;
+    padding: 10px;
+    margin:0;
+}
+
+#nav li {
+    display: inline;
 }
 
 #nav li a {
     color: white;
+    text-decoration: none;
+    padding-right: 30px;
+    font-family: 'Muli', sans-serif;
+}
+#nav li a:hover {
+    background-color: #111;
+}
+
+/* Table */
+
+ table, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+ td {
+     padding: 5px;
+ }
+
+/* Contentleft */
+
+/* Contentright */
+
+.contentright {
+    float: right;
+}
+
+/* Contentbot */
+
+.contentbot img {
+    display: inline;
 }
