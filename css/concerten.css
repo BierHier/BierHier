@@ -8,3 +8,8 @@
 #nav li a {
     color: white;
 }
+
+ table, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
