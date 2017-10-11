@@ -52,7 +52,8 @@ li a:hover {
 }
 
 img {
-    width: 250px;
+    width: 400px;
+    margin: 20px;
 }
 
 div.footer1 {
@@ -69,14 +70,14 @@ p.footer3 {
 
 div.footer4 {
     background-color: #6FA8DD;
-    height: 310px;
-"
+    height: 350px;
+    margin-top: 250px;
 }
 
 div.tekst {
-    margin-top: -57%;
-    float: right;
-    margin-right: 50px;
+    float: left;
+    margin-left: 50px;
+    margin-top: 20px;
 }
 
 p {
@@ -97,8 +98,42 @@ ul.grid {
     margin-left: 100px;
 }
 
+div.uitslag {
+    float: right;
+    margin-right: 600px;
+    margin-top: -80px;
+}
+
+div.rss {
+    margin-right: -600px;
+    float: right;
+}
+
+
+
+
+
+
+
 /*
 Responsive gedeelte
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
+/
 */
 
 @media screen and (max-width: 800px) {
@@ -108,16 +143,16 @@ Responsive gedeelte
 
     div.tekst {
         float: left;
-        margin-left: 25%;
+        margin-left: 3%;
         margin-top: 5%;
     }
 
     ul.grid {
-        margin-left: 47%;
+        margin-left: 45%;
     }
 
     b {
-        margin-left: 45%;
+        margin-left: 15%;
     }
 
     ul {
@@ -147,10 +182,24 @@ Responsive gedeelte
     }
 
     div.footer4 {
-        margin-top: 410px;
+        margin-top: 870px;
     }
 
     p.footer3 {
         margin-left: 60px;
+    }
+
+    h3.footerlink {
+        text-align: center;
+    }
+
+    div.rss {
+        position: absolute;
+        margin-top: 840px;
+    }
+
+    div.uitslag {
+        position: absolute;
+        margin-top: 765px;
     }
 }
