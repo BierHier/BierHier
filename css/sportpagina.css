@@ -148,6 +148,7 @@ Responsive gedeelte
         width: 400px;
         height: 400px;
         display: grid;
+        margin-left: 0%;
     }
 
     div.foto {
@@ -174,4 +175,5 @@ Responsive gedeelte
     p.footer3 {
         margin-left: 60px;
     }
+
 }
