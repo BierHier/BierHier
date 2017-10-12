@@ -1,4 +1,5 @@
 /* CSS contact Mark Jeff van Haastert */
+@media all and (max-width: 300px)
 
 * {
     box-sizing: border-box;
@@ -130,7 +131,6 @@ margin-right: 10px;
 
     #formulier input, textarea{
         width: 300px;
-        float: none;
         vertical-align: top;
         text-align: left;
 }
@@ -177,10 +177,13 @@ margin-right: 10px;
 
 .desc{
     float: left;
+    width: 45%;
 }
 
 #Naam, #Email, #Tel, #Bericht{
+    margin-right: 0px;
     float: right;
+    width: 45%;
 }
 
 }
