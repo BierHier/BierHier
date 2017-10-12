@@ -4,7 +4,7 @@ body {
     height: 100%;
     width: 1200px;
     margin: auto;
-    background-color: white;
+    background-color: #e7e5eb;
 }
 
 /* Nav */
@@ -49,14 +49,22 @@ body {
 
 /* Contentleft */
 
+.contentleft {
+    float: left;
+    background-color: #15750a;
+}
+
 /* Contentright */
 
 .contentright {
     float: right;
+    background-color: #15750a;
 }
 
 /* Contentbot */
 
 .contentbot img {
     display: inline;
+    background-color: #15750a;
+    height: 150px;
 }
