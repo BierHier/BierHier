@@ -8,16 +8,21 @@ body {
     margin: 0;
     padding: 0;
     background-color: #eaf6fa;
-    font-family: 'Manuale';
+    font-family: 'Manuale', sans-serif;
 }
 
 #wrapper {
     margin-top: 0px;
     margin-left: 5px;
+    height: 100%;
 }
 
 header {
     margin-bottom: 0px;
+}
+
+#container{
+    height: 100%;
 }
 
 
@@ -25,7 +30,7 @@ header {
 
 
 #nav ul{
-    font-family: 'Raleway' , sans-serif;
+    font-family: 'Raleway', sans-serif;
     text-decoration:none;
     list-style-type: none;
     padding: 15px 25px;
@@ -64,6 +69,7 @@ header {
 #formulier {
     margin-left: 10px;
     margin-right: 10px;
+    text-align: left;
 }
 
 #formulier input, textarea{
@@ -117,3 +123,64 @@ margin-left: 10px;
 margin-right: 10px;
 */
 /* pc 800px */
+
+/* display regels */
+
+@media all and (min-width: 300px){
+
+    #formulier input, textarea{
+        width: 300px;
+        float: none;
+        vertical-align: top;
+        text-align: left;
+}
+    .desc{
+        width: 100%;
+        margin-right: 100%;
+    }
+
+}
+
+@media all and (min-width: 450px){
+
+#adresgegevens {
+    display: inline-block;
+    vertical-align:top;
+    width: 45%;
+    height: 100%;
+}
+
+#formulier {
+    display: inline-block;
+    width: 45%;
+    height: 100%;
+
+}
+
+}
+
+@media all and (min-width: 800px){
+
+#googlemap {
+    display: inline-block;
+    width: 55%;
+}
+
+#adresgegevens {
+    display: inline-block;
+    width: 35%;
+}
+
+#formulier{
+    text-align: left;
+}
+
+.desc{
+    float: left;
+}
+
+#Naam, #Email, #Tel, #Bericht{
+    float: right;
+}
+
+}
