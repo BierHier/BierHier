@@ -11,11 +11,11 @@ body {
     width: 1550px;
     margin: auto;
     background-color: white;
-    border: 2px solid #6FA8DD;
+    border: 4px solid #6FA8DD;
 }
 
 div.foto {
-    width: 802px;
+    width: 1054px;
 }
 
 a {
@@ -91,7 +91,7 @@ div.tekst {
 }
 
 p {
-    margin-left: 174px;
+    margin-left: 111px;
 }
 
 h3.footerlink {
@@ -110,7 +110,7 @@ ul.grid {
 
 a.marginfoto {
     margin: 0px;
-    margin-left: 38px;
+    margin-left: 40px;
 }
 
 h3 {
