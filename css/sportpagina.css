@@ -11,10 +11,11 @@ body {
     width: 1550px;
     margin: auto;
     background-color: white;
+    border: 2px solid #6FA8DD;
 }
 
 div.foto {
-    width: 1072px;
+    width: 1054px;
 }
 
 a {
@@ -55,16 +56,26 @@ img {
     width: 250px;
 }
 
+img:hover {
+    opacity: 0.5;
+    transition: .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
+}
+
 div.footer1 {
     float: left;
+    border: 2px solid #6FA8DD;
+    width: 800px;
 }
 
 div.footer2 {
     margin-left: 17%;
+    border: 2px solid #6FA8DD;
+    margin-left: 800px;
 }
 
 p.footer3 {
-    margin-left: 139px;
+    margin-left: 169px;
 }
 
 div.footer4 {
@@ -74,13 +85,13 @@ div.footer4 {
 }
 
 div.tekst {
-    margin-top: -57%;
+    margin-top: -62%;
     float: right;
     margin-right: 50px;
 }
 
 p {
-    margin-left: 10px;
+    margin-left: 111px;
 }
 
 h3.footerlink {
@@ -94,8 +105,21 @@ p.copy {
 
 ul.grid {
     display: inline-grid;
-    margin-left: 100px;
+    margin-left: 49%;
 }
+
+a.marginfoto {
+    margin: 0px;
+    margin-left: 40px;
+}
+
+h3 {
+    text-align: center;
+}
+
+
+
+
 
 /*
 Responsive gedeelte
