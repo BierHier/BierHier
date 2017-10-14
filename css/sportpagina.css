@@ -11,10 +11,11 @@ body {
     width: 1550px;
     margin: auto;
     background-color: white;
+    border: 2px solid #6FA8DD;
 }
 
 div.foto {
-    width: 1072px;
+    width: 1054px;
 }
 
 a {
@@ -53,6 +54,13 @@ li a:hover {
 
 img {
     width: 250px;
+    height: 250px;
+}
+
+img:hover {
+    opacity: 0.5;
+    transition: .3s ease-in-out;
+    -webkit-transition: .3s ease-in-out;
 }
 
 div.footer1 {
@@ -61,6 +69,7 @@ div.footer1 {
 
 div.footer2 {
     margin-left: 17%;
+
 }
 
 p.footer3 {
@@ -74,7 +83,7 @@ div.footer4 {
 }
 
 div.tekst {
-    margin-top: -57%;
+    margin-top: -62%;
     float: right;
     margin-right: 50px;
 }
@@ -94,8 +103,19 @@ p.copy {
 
 ul.grid {
     display: inline-grid;
-    margin-left: 100px;
+    margin-left: 286px;
 }
+
+a.marginfoto {
+    margin: 0px;
+    margin-left: 40px;
+}
+
+
+
+
+
+
 
 /*
 Responsive gedeelte
@@ -126,7 +146,9 @@ Responsive gedeelte
 
     img {
         width: 400px;
+        height: 400px;
         display: grid;
+        margin-left: 0%;
     }
 
     div.foto {
@@ -147,10 +169,11 @@ Responsive gedeelte
     }
 
     div.footer4 {
-        margin-top: 500px;
+        margin-top: 1024px;
     }
 
     p.footer3 {
         margin-left: 60px;
     }
+
 }

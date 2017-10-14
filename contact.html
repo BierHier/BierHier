@@ -8,55 +8,107 @@
 <header>
     <img src="EigenLogo/Webity.JPG"/></header>
 <body>
-<div id="wrapper">
-    <div id="nav">
-        <!-- navigatiebalk -->
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="concerten.html">Concerten</a></li>
-            <li><a href="#Sport">Sport</a></li>
-            <li><a href="#Recepten">Recepten</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <!-- einde navigatiebalk -->
-    </div>
-    <div id="container">
-        <!-- start container -->
-        <h2>Contact</h2>
-        <div id="googlemap">
-            <!-- Google map iframe -->
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2435.904646750598!2d5.215966715801974!3d52.37214897978641!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c616e051c192ef%3A0x37b555f23ce71fdd!2sGrote+Markt+125%2C+1315+JD+Almere!5e0!3m2!1snl!2snl!4v1507548209380"
-                    width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-            <!-- Einde google map iframe -->
+<form action="#">
+
+    <header>
+        <h2>Example Responsive Form</h2>
+        <div>This form breaks at 600px and goes from a left-label form to a top-label form. At above 1200px, the labels
+            align right.
         </div>
-        <div id="adresgegevens">
-            <!-- adres gegevens -->
-            <p>
-                Mauris suscipit tincidunt lacus sollicitudin varius. Donec nec diam lacinia, efficitur erat ut, commodo
-                purus. In ullamcorper sed justo in commodo. Integer aliquam turpis posuere justo ultricies, vitae
-                sodales turpis faucibus. Pellentesque cursus eget diam id suscipit. Fusce non laoreet magna.
-            </p>
-            <!-- Einde adres gegevens -->
+    </header>
+
+    <div>
+        <label class="desc" id="title1" for="Field1">Full Name</label>
+        <div>
+            <input id="Field1" name="Field1" type="text" class="field text fn" value="" size="8" tabindex="1">
         </div>
-        <div id="formulier">
-            alsdkjfalsdfjk
+    </div>
+
+    <div>
+        <label class="desc" id="title3" for="Field3">
+            Email
+        </label>
+        <div>
+            <input id="Field3" name="Field3" type="email" spellcheck="false" value="" maxlength="255" tabindex="3">
         </div>
-        <!-- eind container -->
     </div>
-    <div id="footer">
-        <!-- start footer -->
-        <h3>Sitelinks</h3>
-        <img src="EigenLogo/img.JPG" alt="foto ontwikkelteam">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#Concerten">Concerten</a></li>
-            <li><a href="#Sport">Sport</a></li>
-            <li><a href="#Recepten">Recepten</a></li>
-            <li><a href="#Contact">Contact</a></li>
-        </ul>
-        <p>copyright © roc-dev.com 2017</p>
-        <!-- eind footer -->
+
+    <div>
+        <label class="desc" id="title4" for="Field4">
+            Message
+        </label>
+
+        <div>
+            <textarea id="Field4" name="Field4" spellcheck="true" rows="10" cols="50" tabindex="4"></textarea>
+        </div>
     </div>
-</div><!-- contact wrappper -->
+
+    <div>
+        <fieldset>
+
+            <legend id="title5" class="desc">
+                Select a Choice
+            </legend>
+
+            <div>
+                <input id="radioDefault_5" name="Field5" type="hidden" value="">
+                <div>
+                    <input id="Field5_0" name="Field5" type="radio" value="First Choice" tabindex="5" checked="checked">
+                    <label class="choice" for="Field5_0">First Choice</label>
+                </div>
+                <div>
+                    <input id="Field5_1" name="Field5" type="radio" value="Second Choice" tabindex="6">
+                    <label class="choice" for="Field5_1">Second Choice</label>
+                </div>
+                <div>
+                    <input id="Field5_2" name="Field5" type="radio" value="Third Choice" tabindex="7">
+                    <label class="choice" for="Field5_2">Third Choice</label>
+                </div>
+            </div>
+        </fieldset>
+    </div>
+
+    <div>
+        <fieldset>
+            <legend id="title6" class="desc">
+                Check All That Apply
+            </legend>
+            <div>
+                <div>
+                    <input id="Field6" name="Field6" type="checkbox" value="First Choice" tabindex="8">
+                    <label class="choice" for="Field6">First Choice</label>
+                </div>
+                <div>
+                    <input id="Field7" name="Field7" type="checkbox" value="Second Choice" tabindex="9">
+                    <label class="choice" for="Field7">Second Choice</label>
+                </div>
+                <div>
+                    <input id="Field8" name="Field8" type="checkbox" value="Third Choice" tabindex="10">
+                    <label class="choice" for="Field8">Third Choice</label>
+                    </span>
+                </div>
+        </fieldset>
+    </div>
+
+    <div>
+        <label class="desc" id="title106" for="Field106">
+            Select a Choice
+        </label>
+        <div>
+            <select id="Field106" name="Field106" class="field select medium" tabindex="11">
+                <option value="First Choice">First Choice</option>
+                <option value="Second Choice">Second Choice</option>
+                <option value="Third Choice">Third Choice</option>
+            </select>
+        </div>
+    </div>
+
+    <div>
+        <div>
+            <input id="saveForm" name="saveForm" type="submit" value="Submit">
+        </div>
+    </div>
+
+</form>
 </body>
 </html>
