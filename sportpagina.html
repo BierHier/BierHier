@@ -12,21 +12,32 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 <body>
+<div>
+    <header>
+        <img src="EigenLogo/header blur.jpg" alt="Header">
+    </header>
+</div>
 <!--
 //navigatie boven
 //nav balk
 -->
-<div>
-    <nav>
-        <ul>
-            <li><a class="active" href="index.html">Home</a></li>
-            <li><a href="concerten.html">Concerten</a></li>
-            <li><a href="sportpagina.html">Sport</a></li>
-            <li><a href="recepten.html">Recepten</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+<div class="topnav" id="myTopnav">
+    <a href="#home">Home</a>
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
 <!--
 //Titel
 //sport
@@ -68,7 +79,7 @@
     <a class="marginfoto" href="#">
         <img src="HTML5%20Scrum%20periode%201%202017/img/sport/tafeltennis.jpg" alt="Foto8">
     </a>
-    <a class="marginfoto" href="#">
+    <a class="marginfoto2" href="#">
         <img src="HTML5%20Scrum%20periode%201%202017/img/sport/basketbal.jpg" alt="Foto9">
     </a>
 </div>
@@ -128,8 +139,8 @@
     van
     sport,<br>
     onderwijs, welzijn, gezondheid en economie.<br>
-    <br>
-    <br>
+</div>
+<div class="footer5">
     dolor sit amet, consectetur adipiscing elit.<br>
     Praesent sed dapibus nisl, vitae feugiat purus. <br>
     Fusce fermentum tristique lacus nec dapibus. Nunc faucibus commodo<br>
