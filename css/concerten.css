@@ -7,6 +7,8 @@ body {
     background-color: #e7e5eb;
 }
 
+/* Header */
+
 /* Nav */
 
 #nav {
@@ -77,8 +79,6 @@ body {
 
 /* Contentbot */
 
-
-
 .contentbot {
     float: left;
     margin: 00px;
@@ -89,9 +89,65 @@ body {
     position: relative;
 }
 
+.contentbot h3 {
+    margin-left: 15px;
+}
 
-
+/* Contentbot images */
 
 .cbimg {
     margin: 10px 0 0 120px;
+}
+
+/* Footer */
+
+#footer {
+    float: left;
+    width: 100%;
+    height: 300px;
+    background-color: #75b1d6;
+
+}
+
+#footer a {
+    display: block;
+    margin: 0 0 0 25px;
+
+    padding: 10px 0 10px 0;
+}
+
+/* concert detail body */
+
+/* #detbody {
+    height: 675px;
+} */
+
+/* Concert detail left div */
+
+#contentdetleft {
+    float: left;
+    width: 25%;
+    background-color: #d0d1ba;
+    height: 580px;
+    margin: 0;
+
+
+}
+
+#contentdetleft img{
+    margin: 25px 0 0 25px;
+}
+
+/* Concert detail right div */
+
+#contentdetright {
+    float: right;
+    background-color: #d0d1ba;
+    width: 75%;
+    height: 580px;
+    margin: 0;
+}
+
+#contentdetright iframe {
+    margin-top: 25px;
 }
