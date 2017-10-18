@@ -3,25 +3,40 @@
 <head>
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Manuale" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/contactmenu.css">
     <link rel="stylesheet" type="text/css" href="css/contact01.css">
     <meta charset="UTF-8">
     <title>Contact</title>
 </head>
 <header>
-    <img src="EigenLogo/header.jpg" height="100%" width="100%"/></header>
+    <img src="EigenLogo/header.jpg" height="100%" width="100%"/>
+</header>
 <body>
 <div id="wrapper">
     <div id="nav">
-        <!-- navigatiebalk -->
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="concerten.html">Concerten</a></li>
-            <li><a href="sportpagina.html">Sport</a></li>
-            <li><a href="recepten.html">Recepten</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <!-- einde navigatiebalk -->
+        <!-- start navigatie -->
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Home</a>
+            <a href="concerten.html">Concerten</a>
+            <a href="sportpagina.html">Sport</a>
+            <a href="recepten.html">Recepten</a>
+            <a href="contact.html">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+        <!-- einde navigatie -->
     </div>
+
     <div id="container">
         <!-- start container -->
         <h2>Contact</h2>

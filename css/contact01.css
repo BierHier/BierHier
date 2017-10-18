@@ -30,29 +30,6 @@ header {
 /* start style navigatie balk */
 
 
-#nav ul{
-    font-family: 'Raleway', sans-serif;
-    text-decoration:none;
-    list-style-type: none;
-    padding: 15px 25px;
-    font-size: 24px;
-    text-align: center;
-    color: #003569;
-    background-color: #6FA8DD;
-    border: none;
-    margin-top: 0px;
-}
-
-#nav li:active {
-    background-color: #5886b0;
-    transform: translateY(4px);
-    color: #003569;
-}
-
-#nav a {
-    font-weight: bold;
-    text-decoration: none;
-}
 
 /* einde style navigatie balk */
 
@@ -114,76 +91,5 @@ header {
 #footer p {
     text-align: center;
 }
-/* eind einde footer */
 
 
-
-/* Tablet 400px
-
-margin-left: 10px;
-margin-right: 10px;
-*/
-/* pc 800px */
-
-/* display regels */
-
-@media all and (min-width: 300px){
-
-    #formulier input, textarea{
-        width: 300px;
-        vertical-align: top;
-        text-align: left;
-}
-    .desc{
-        width: 100%;
-        margin-right: 100%;
-    }
-
-}
-
-@media all and (min-width: 450px){
-
-#adresgegevens {
-    display: inline-block;
-    vertical-align:top;
-    width: 45%;
-    height: 100%;
-}
-
-#formulier {
-    display: inline-block;
-    width: 45%;
-    height: 100%;
-
-}
-
-}
-
-@media all and (min-width: 800px){
-
-#googlemap {
-    display: inline-block;
-    width: 55%;
-}
-
-#adresgegevens {
-    display: inline-block;
-    width: 35%;
-}
-
-#formulier{
-    text-align: left;
-}
-
-.desc{
-    float: left;
-    width: 45%;
-}
-
-#Naam, #Email, #Tel, #Bericht{
-    margin-right: 0px;
-    float: right;
-    width: 45%;
-}
-
-}
