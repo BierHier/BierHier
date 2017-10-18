@@ -5,6 +5,7 @@
     }
     .footer-content{
         width: auto;
+
     }
 }
 
@@ -37,7 +38,7 @@
     }
 }
 
-@media screen and (max-width: 484px) {
+@media screen and (max-width: 488px) {
     .topnav a:not(:first-child) {
         display: none;
     }
