@@ -3,17 +3,46 @@
         width: 1200px;
         margin: auto;
     }
+    .OverOnsTeam{
+        display: inline-block;
+    }
+    .Team{
+        width: 30%;
+        float: left;
+        margin-right: 0;
+    }
+    .Team#Mandy{
+        width: 46%;
+    }
+    .Team#Liam{
+        width: 46%;
+        margin-left: 3%;
+    }
     .footer-content{
-        width: auto;
-
+        width: 100px;
+        display: grid;
+        text-align: left;
+        float: left;
+        margin-left: 20px;
+    }
+    .footer-logo-container{
+        text-align: right;
+        margin: 0;
+        padding: 0;
+        float: right;
+    }
+    .footer p{
+        padding-top: 175px;
+        margin:0;
     }
 }
 
-@media only screen and (max-width: 960px) {
+@media only screen and (min-width: 960px) {
     /* plaats hier de css code voor tablets in portrait mode */
+
 }
 
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 767px)and (max-width: 1200px) {
     /* plaats hier de css code voor smartphones in landscape mode */
     #container{
         width: 100%;
@@ -35,6 +64,13 @@
     .footer-logo-container {
         margin-top: 10px;
         padding-top: 10px;
+    }
+    .Team{
+        width: 45%;
+        float: left;
+    }
+    .Team#Liam{
+        width: 95%;
     }
 }
 
