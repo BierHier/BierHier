@@ -1,56 +1,74 @@
 <!DOCTYPE html>
+<!--
+ *  Created somewhere on the Bahama's.
+ *    __̴ı̴̴̡̡̡ ̡͌l̡̡̡ ̡͌l̡*̡̡ ̴̡ı̴̴̡ ̡̡͡|̲̲̲͡͡͡ ̲▫̲͡ ̲̲̲͡͡π̲̲͡͡ ̲̲͡▫̲̲͡͡ ̲|̡̡̡ ̡ ̴̡ı̴̡̡ ̡͌l̡̡̡̡.___
+ *  By Samir.
+-->
 <html lang="en">
 <head>
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
-    <title>Voetbal</title>
-    <link rel="stylesheet" href="css/sportpaginaVoetbal.css">
+    <title>Sportpagina</title>
+    <link rel="stylesheet" href="css/sportpaginaHandbal.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 <body>
+<div>
+    <header>
+        <img src="EigenLogo/header blur.jpg" alt="Header">
+    </header>
+</div>
 <!--
 //navigatie boven
+//nav balk
 -->
-<div>
-    <nav>
-        <ul>
-            <li><a class="active" href="index.html">Home</a></li>
-            <li><a href="concerten.html">Concerten</a></li>
-            <li><a href="sportpagina.html">Sport</a></li>
-            <li><a href="recepten.html">Recepten</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+<div class="topnav" id="myTopnav">
+    <a href="#home">Home</a>
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
 <!--
 //Titel
+//sport
 -->
 <div>
     <h1>
         <b>
-            Voetbal
+            Sport
         </b>
     </h1>
 </div>
 <!--
-//Titel2
+//foto's
+//sporten
 -->
-<div class="uitslag">
-    <h1>
-        <b>
-            Uitslagen
-        </b>
-    </h1>
+<div class="foto">
+    <a class="marginfoto" href="sportpaginaVoetbal.html">
+        <img src="HTML5%20Scrum%20periode%201%202017/img/sport/voetbal.jpg" alt="Foto1">
+    </a>
 </div>
 <!--
-//Uitslagen/sport nieuws
+//RSS
+//Feed
 -->
 <div class="rss">
     <script type="text/javascript">
         <!--
         rssfeed_url = [];
         rssfeed_url[0] = "https://www.gelderlander.nl/sport/rss.xml";
-        rssfeed_frame_width = "750";
-        rssfeed_frame_height = "500";
+        rssfeed_frame_width = "670";
+        rssfeed_frame_height = "492";
         rssfeed_scroll = "on";
         rssfeed_scroll_step = "6";
         rssfeed_scroll_bar = "off";
@@ -88,15 +106,8 @@
     <script type="text/javascript" src="//feed.surfing-waves.com/js/rss-feed.js"></script>
 </div>
 <!--
-//foto's
--->
-<div class="foto">
-    <a href="sportpaginaVoetbal.html">
-        <img src="HTML5%20Scrum%20periode%201%202017/img/sport/voetbal.jpg" alt="Foto1">
-    </a>
-</div>
-<!--
-//tekst
+//Tekst
+//Voetbal
 -->
 <div class="tekst">
     Voetbal is een wereldwijd populaire balsport waarbij<br> twee ploegen van elf spelers moeten proberen de bal in het doel
@@ -108,6 +119,7 @@
 </div>
 <!--
 //footer
+//extra linkjes
 -->
 <div class="footer4">
     <ul class="grid">
