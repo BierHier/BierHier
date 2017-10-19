@@ -52,6 +52,7 @@ body {
     background-color: white;
     margin:0;
     padding: 0;
+    height: 100%;
 }
 .Nieuws_Almere{
     padding-left: 2.5%;
@@ -100,4 +101,23 @@ body {
     text-decoration: none;
     color: white;
     margin-bottom: 0;
+}
+.OverOns{
+    padding-top: 10px;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+.Team{
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 10px;
+    border-style: groove;
+}
+.Team{
+    padding-bottom: 10px;
+}
+.Team img{
+    padding-top: 10px;
 }
