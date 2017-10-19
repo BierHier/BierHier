@@ -116,6 +116,10 @@ b {
         margin: auto;
     }
 
+    h3 {
+        width: 98%;
+    }
+
     a.marginfoto img {
         width: 30%;
         margin-left: 2.3%;
@@ -130,6 +134,10 @@ b {
         margin-left: 2.3%;
     }
 
+    li {
+        width: 98%;
+    }
+    
     a.marginfoto2{
         text-decoration: none;
     }
@@ -143,6 +151,7 @@ b {
     div.footer5 {
         float: right;
         margin-right: 50px;
+        margin-top: 0px;
     }
 
     div.footer2 {
