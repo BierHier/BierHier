@@ -171,21 +171,28 @@ body {
     height: 580px;
     margin: 0;
 
+
+
 }
 
 #iframe {
     float: right;
-    margin-right: 20px;
+    margin: 20px 20px 20px 20px;
+    width: 560px;
+    height: 315px;
+    clear: both;
 
 
-    bottom: 0;
+
+
+
 
 
 }
 
 #contentdetright p {
-    float: left;
-    column-width: 100px;
+
+    column-width: 125px;
 
     column-fill: auto;
 }
