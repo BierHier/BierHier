@@ -9,12 +9,21 @@ body {
 
 /* Header */
 
+#header {
+    width: 100%;
+    height: 150px;
+
+
+}
+
 /* Nav */
 
 #nav {
     height: auto;
     width: 100%;
     background-color: #75b1d6;
+
+    padding: 0;
 }
 
 #nav ul {
@@ -83,7 +92,7 @@ body {
     float: left;
     margin: 00px;
     display: inline;
-    background-color: #d0d1ba;
+    background-color: #c7c9a7;
     height: 350px;
     width: 100%;
     position: relative;
@@ -103,17 +112,34 @@ body {
 
 #footer {
     float: left;
+    height: auto;
     width: 100%;
-    height: 300px;
     background-color: #75b1d6;
+    margin: 0;
+}
+
+#footer ul {
+    list-style-type: none;
+    padding: 0 0 0 25px;
+
 
 }
 
-#footer a {
-    display: block;
-    margin: 0 0 0 25px;
+#footer li {
 
-    padding: 10px 0 10px 0;
+    padding: 10px 0 0 0;
+}
+
+#footer li a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Muli', sans-serif;
+    display: block;
+
+
+}
+#footer li a:hover {
+    background-color: #111;
 }
 
 /* concert detail body */
@@ -130,8 +156,6 @@ body {
     background-color: #d0d1ba;
     height: 580px;
     margin: 0;
-
-
 }
 
 #contentdetleft img{
@@ -146,8 +170,22 @@ body {
     width: 75%;
     height: 580px;
     margin: 0;
+
 }
 
-#contentdetright iframe {
-    margin-top: 25px;
+#iframe {
+    float: right;
+    margin-right: 20px;
+
+
+    bottom: 0;
+
+
+}
+
+#contentdetright p {
+    float: left;
+    column-width: 100px;
+
+    column-fill: auto;
 }
