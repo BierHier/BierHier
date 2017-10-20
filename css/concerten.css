@@ -175,20 +175,7 @@ body {
 
 }
 
-#iframe {
-    float: right;
-    margin: 20px 20px 20px 20px;
-    width: 560px;
-    height: 315px;
-    clear: both;
 
-
-
-
-
-
-
-}
 
 #contentdetright p {
 
@@ -196,3 +183,20 @@ body {
 
     column-fill: auto;
 }
+
+#iframe {
+    float:right;
+
+}
+#contentdetright iframe {
+    float: right;
+
+    margin: 20px 20px 20px 20px;
+
+
+}
+
+#pp {
+    margin-top: 40px;
+}
+
