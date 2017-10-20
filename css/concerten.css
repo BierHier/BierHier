@@ -12,8 +12,6 @@ body {
 #header {
     width: 100%;
     height: 150px;
-
-
 }
 
 /* Nav */
@@ -42,6 +40,7 @@ body {
     padding-right: 30px;
     font-family: 'Muli', sans-serif;
 }
+
 #nav li a:hover {
     background-color: #111;
 }
@@ -73,8 +72,6 @@ body {
     margin: 50px 0 0 50px;
     width: 500px;
 }
-
-
 
 /* Contentright */
 
@@ -121,12 +118,9 @@ body {
 #footer ul {
     list-style-type: none;
     padding: 0 0 0 25px;
-
-
 }
 
 #footer li {
-
     padding: 10px 0 0 0;
 }
 
@@ -135,18 +129,13 @@ body {
     text-decoration: none;
     font-family: 'Muli', sans-serif;
     display: block;
-
-
 }
+
 #footer li a:hover {
     background-color: #111;
 }
 
 /* concert detail body */
-
-/* #detbody {
-    height: 675px;
-} */
 
 /* Concert detail left div */
 
@@ -170,30 +159,20 @@ body {
     width: 75%;
     height: 580px;
     margin: 0;
-
-
-
 }
 
-
-
 #contentdetright p {
-
     column-width: 125px;
-
     column-fill: auto;
+    margin-right: 15px;
 }
 
 #iframe {
     float:right;
-
 }
 #contentdetright iframe {
     float: right;
-
     margin: 20px 20px 20px 20px;
-
-
 }
 
 #pp {
