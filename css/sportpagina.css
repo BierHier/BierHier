@@ -8,7 +8,7 @@ body {
     background-color: #e7e5eb;
 }
 
-div.footer4 {
+div.footer {
     background-color: gray;
 }
 
@@ -54,15 +54,15 @@ div.tekst {
     text-align: center;
 }
 
-div.footer2 {
+div.Tekst_voetbal {
     text-align: center;
 }
 
-div.footer1 {
+div.Tekst_badminton {
     text-align: center;
 }
 
-div.footer5 {
+div.tekst2 {
     text-align: center;
 }
 
@@ -86,25 +86,17 @@ b {
         text-align: center;
     }
 
-    div.footer2 {
+    div.Tekst_voetbal {
         text-align: center;
     }
 
-    div.footer1 {
+    div.Tekst_badminton {
         text-align: center;
     }
 
-    div.footer5 {
+    div.tekst2 {
         margin-top: 30px;
         text-align: center;
-    }
-
-    li {
-        width: 90%;
-    }
-
-    h3 {
-        width: 90%;
     }
 }
 
@@ -136,8 +128,9 @@ b {
 
     li {
         width: 98%;
+        margin-left: 10px;
     }
-    
+
     a.marginfoto2{
         text-decoration: none;
     }
@@ -148,36 +141,52 @@ b {
         margin-left: 50px;
     }
 
-    div.footer5 {
+    div.tekst2 {
         float: right;
         margin-right: 50px;
         margin-top: 0px;
     }
 
-    div.footer2 {
+    div.Tekst_voetbal {
         text-align: unset;
         float: right;
         margin-right: 50px;
     }
 
-    div.footer1 {
+    div.Tekst_badminton {
         text-align: unset;
         float: left;
         margin-left: 50px;
     }
 
-    div.footer4 {
+    div.footer {
         width: 100%;
         display: inline-grid;
         margin-top: 20px;
     }
 
-    div.footer1 {
+    div.Tekst_badminton {
         width: 412px;
     }
 
     p {
         text-align: unset;
+    }
+
+    ul.grid {
+        text-align: center;
+        text-decoration: none;
+        font-size: 17px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+    }
+
+    h2.a {
+        text-decoration: none;
+    }
+
+    div.ul.h2.a {
+        text-decoration: none;
     }
 }
 
@@ -205,6 +214,9 @@ b {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 0px 0px 20px black;
 }
 
 .topnav a:hover {
@@ -225,23 +237,4 @@ b {
         float: right;
         display: block;
     }
-}
-
-@media screen and (max-width: 500px) {
-    .topnav.responsive {
-        position: relative;
-    }
-
-    .topnav.responsive .icon {
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-
-    .topnav.responsive a {
-        float: none;
-        display: block;
-        text-align: left;
-    }
-
 }

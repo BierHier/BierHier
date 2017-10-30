@@ -8,7 +8,7 @@ body {
     background-color: #e7e5eb;
 }
 
-div.footer4 {
+div.footer {
     background-color: gray;
 }
 
@@ -32,10 +32,6 @@ a.marginfoto img {
     width: 100%;
 }
 
-a.marginfoto2 img {
-    width: 100%;
-}
-
 li {
     list-style-type: none;
     text-align: center;
@@ -54,18 +50,6 @@ div.tekst {
     text-align: center;
 }
 
-div.footer2 {
-    text-align: center;
-}
-
-div.footer1 {
-    text-align: center;
-}
-
-div.footer5 {
-    text-align: center;
-}
-
 b {
     margin-left: 20px;
 }
@@ -77,25 +61,11 @@ b {
         width: 49%;
     }
 
-    a.marginfoto2 img {
-        margin-left: 26%;
-        width: 50%;
+    div.rss {
+        float: right;
     }
 
     div.tekst {
-        text-align: center;
-    }
-
-    div.footer2 {
-        text-align: center;
-    }
-
-    div.footer1 {
-        text-align: center;
-    }
-
-    div.footer5 {
-        margin-top: 30px;
         text-align: center;
     }
 
@@ -117,7 +87,7 @@ b {
     }
 
     div.foto {
-    width: 41%;
+        width: 41%;
         float: left;
     }
 
@@ -139,17 +109,8 @@ b {
         text-decoration: none;
     }
 
-    a.marginfoto2 img {
-        width: 30%;
-        margin-left: 2.3%;
-    }
-
     li {
         width: 98%;
-    }
-
-    a.marginfoto2 {
-        text-decoration: none;
     }
 
     div.tekst {
@@ -159,32 +120,10 @@ b {
         margin-top: 2%;
     }
 
-    div.footer5 {
-        float: right;
-        margin-right: 50px;
-        margin-top: 0px;
-    }
-
-    div.footer2 {
-        text-align: unset;
-        float: right;
-        margin-right: 50px;
-    }
-
-    div.footer1 {
-        text-align: unset;
-        float: left;
-        margin-left: 50px;
-    }
-
-    div.footer4 {
+    div.footer {
         width: 100%;
         display: inline-grid;
         margin-top: 20px;
-    }
-
-    div.footer1 {
-        width: 412px;
     }
 
     p {
@@ -236,23 +175,4 @@ b {
         float: right;
         display: block;
     }
-}
-
-@media screen and (max-width: 500px) {
-    .topnav.responsive {
-        position: relative;
-    }
-
-    .topnav.responsive .icon {
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-
-    .topnav.responsive a {
-        float: none;
-        display: block;
-        text-align: left;
-    }
-
 }
