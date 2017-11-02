@@ -3,7 +3,6 @@
 Aparte CCS file voor het menu om meer duidelijkheid voor mezelf te krijgen.
 
 */
- */
 
 
 .topnav {
@@ -35,7 +34,6 @@ Aparte CCS file voor het menu om meer duidelijkheid voor mezelf te krijgen.
 Het menu is alleen voor de mobiel actief.
 
 */
- */
 
 @media screen and (max-width: 500px) {
     .topnav a:not(:first-child) {display: none;}
@@ -51,4 +49,3 @@ Het menu is alleen voor de mobiel actief.
         text-align: left;
     }
 
-}

@@ -1,7 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
 /* Body */
 
 body {
-    height: 1080px;
+    margin: 0;
+}
+
+#wrapper {
+
     width: 1200px;
     margin: auto;
     background-color: #e7e5eb;
@@ -10,6 +18,10 @@ body {
 /* Header */
 
 #header {
+    height: 150px;
+}
+
+#header img {
     width: 100%;
     height: 150px;
 }
@@ -20,14 +32,13 @@ body {
     height: auto;
     width: 100%;
     background-color: #75b1d6;
-
     padding: 0;
 }
 
 #nav ul {
     list-style-type: none;
     padding: 10px;
-    margin:0;
+    margin: 0;
 }
 
 #nav li {
@@ -47,14 +58,14 @@ body {
 
 /* Table */
 
- table, td{
+table, td {
     border: 1px solid black;
     border-collapse: collapse;
 }
 
- td {
-     padding: 5px;
- }
+td {
+    padding: 5px;
+}
 
 /* Contentleft */
 
@@ -70,7 +81,13 @@ body {
 
 .climg {
     margin: 50px 0 0 50px;
-    width: 500px;
+    width: 50%;
+}
+
+.climg a, .climg img {
+
+    margin-right: 0;
+    padding: 0;
 }
 
 /* Contentright */
@@ -147,7 +164,7 @@ body {
     margin: 0;
 }
 
-#contentdetleft img{
+#contentdetleft img {
     margin: 25px 0 0 25px;
 }
 
@@ -168,8 +185,9 @@ body {
 }
 
 #iframe {
-    float:right;
+    float: right;
 }
+
 #contentdetright iframe {
     float: right;
     margin: 20px 20px 20px 20px;
@@ -179,3 +197,96 @@ body {
     margin-top: 40px;
 }
 
+/* Slideshow */
+
+#slideshow {
+    position: relative;
+
+}
+
+#slideshow .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 8;
+    opacity: 0.0;
+}
+
+#slideshow div.active {
+    z-index: 10;
+    opacity: 1.0;
+}
+
+#slideshow div.last-active {
+    z-index: 9;
+}
+
+/* ----------------------------------- Portrait phone ----------------------------------- */
+
+@media screen and (max-width: 500px) {
+
+    /* Body */
+    #wrapper {
+        width: 500px;
+    }
+
+    /* Header */
+    /* Nav */
+    #nav li {
+        width: 100%;
+        display: block;
+        padding: 5px 0 5px 0;
+        text-align: center;
+    }
+
+    /* Table */
+    /* Contentleft */
+    .contentleft {
+        width: 100%;
+        height: 230px;
+    }
+
+    .climg {
+        margin-left: 35%;
+    }
+
+    /* contentleft images */
+
+    .climg img {
+        width: 50%;
+    }
+
+    /* Contentright */
+
+    .contentright {
+        width: 100%;
+
+        height: 100%;
+    }
+
+    h1, h3 {
+        margin-left: 20px;
+    }
+
+    table {
+        margin: 0 20px 40px 20px;
+    }
+
+    /* Contentbot */
+
+    .contentbot {
+        width: 100%;
+    }
+
+    /* Contentbot images */
+    .cbimg img {
+        width: 33%;
+    }
+
+    /* Footer */
+    /* concert detail body */
+    /* Concert detail left div */
+    /* Concert detail right div */
+    /* Slideshow */
+
+}
