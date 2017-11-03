@@ -17,6 +17,7 @@ div.footer {
 }
 
 header img {
+    height: 150px;
     width: 100%;
 }
 
@@ -35,6 +36,7 @@ a.marginfoto img {
 li {
     list-style-type: none;
     text-align: center;
+    width: 93%;
 }
 
 li:hover {
