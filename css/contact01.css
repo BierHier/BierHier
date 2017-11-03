@@ -4,24 +4,28 @@
     box-sizing: border-box;
 }
 
+h2{
+    margin-left: 1%;
+}
+
 body {
     margin: 0;
     padding: 0;
-    background-color: #eaf6fa;
-    font-family: 'Manuale', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 #wrapper {
     margin-top: 0px;
     margin-left: 5px;
     height: 100%;
+    background-color: #b6e2fa;
 }
 
-header {
-    margin-bottom: 0px;
+.topnav {
+    margin-top: -6px;
 }
 
-#container{
+#container {
     height: 100%;
 }
 
@@ -43,9 +47,13 @@ header {
     max-width: 400px;
 }
 
-#formulier input, textarea{
+#formulier input, textarea {
     width: 100%;
     max-width: 400px;
+}
+
+ul li a{
+    margin-top: 1%;
 }
 
 /* start style footer */
@@ -57,16 +65,20 @@ header {
 
 }
 
-#footer h3{
+#footer li{
+    max-width: 200px;
+    margin-right: 0;
+}
+
+#footer h3 {
     text-align: center;
 }
 
 #footer img {
     width: 200px;
     padding: 10px;
-    padding-top: 0;
     display: block;
-    margin:auto;
+    margin: auto;
 }
 
 #footer ul {
@@ -75,6 +87,7 @@ header {
     padding: 10px;
     padding-top: 0;
     text-align: center;
+    float: left;
 }
 
 #footer li a {
@@ -86,45 +99,96 @@ header {
     text-align: center;
 }
 
-@media all and (min-width: 400px){
-    #googlemap{
+/* Tablet layout */
+
+@media screen and (min-width: 400px) {
+    #googlemap {
         width: 100%;
 
     }
 
-    #adresgegevens{
+    #adresgegevens {
         width: 45%;
         float: right;
     }
 
-    #formulier{
+    #formulier {
         text-align: left;
         display: flex;
     }
 
-
 }
 
-@media all and (min-width: 800px)and (min-width: 1200px){
+@media screen and (min-width: 800px) {
 
-    #wrapper, header{
-        max-width: 1200px;
-        margin: auto;
-    }
-
-    #googlemap{
+    #googlemap {
         float: left;
         width: 55%;
     }
 
-    #adresgegevens{
+    #adresgegevens {
         float: right;
         width: 40%;
     }
 
-    #formulier{
+    form {
+        margin-left: 3%;
+    }
+
+    #formulier {
         float: left;
     }
 
+    #formulier.versturen {
+        max-width: 100px;
+        float: right;
+    }
+}
 
+@media screen and (min-width: 1200px) {
+
+    #wrapper, header {
+        max-width: 1200px;
+        margin: auto;
+    }
+    #header img{
+        max-height: 150px;
+    }
+
+    #formulier {
+        line-height: 25px;
+        margin-top: 2%;
+        clear: left;
+    }
+
+    label {
+        text-align: right;
+        clear: both;
+        float: left;
+        margin-right: 27px;
+        max-width: 50px;
+    }
+
+    #formulier input, textarea {
+        max-width: 250px;
+        float: right;
+
+    }
+
+    #adresgegevens {
+        padding-top: -10px;
+    }
+
+    #footer li, #footer h3, {
+        text-align: left;
+    }
+
+    #footer img {
+        float: right;
+    }
+
+    #footer a{
+        text-align: center;
+
+    }
 }
