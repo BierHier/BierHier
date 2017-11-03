@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    max-width:1200px;
+    margin:auto;
+    font-family: 'Manuale', sans-serif;
+}
