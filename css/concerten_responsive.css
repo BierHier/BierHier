@@ -81,11 +81,13 @@ td {
 
 .climg {
     margin: 50px 0 0 50px;
-    width: 50%;
+    width: 75%;
+
 }
 
 .climg a, .climg img {
-
+    height: 100%;
+    width: 100%;
     margin-right: 0;
     padding: 0;
 }
@@ -166,6 +168,7 @@ td {
 
 #contentdetleft img {
     margin: 25px 0 0 25px;
+    width: 78%;
 }
 
 /* Concert detail right div */
@@ -182,26 +185,25 @@ td {
     column-width: 125px;
     column-fill: auto;
     margin-right: 15px;
-}
-
-#iframe {
-    float: right;
+    margin-left: 10px;
 }
 
 #contentdetright iframe {
     float: right;
-    margin: 20px 20px 20px 20px;
+    width: 57%;
+    height: 289px;
+    margin: 28px 5% 0 0;
 }
 
 #pp {
-    margin-top: 40px;
+    width: 33%;
+    margin: 40px 4% 25px 0;
 }
 
 /* Slideshow */
 
 #slideshow {
     position: relative;
-
 }
 
 #slideshow .slide {
@@ -223,11 +225,15 @@ td {
 
 /* ----------------------------------- Portrait phone ----------------------------------- */
 
-@media screen and (min-width: 401px) and (max-width: 800px) {
+@media screen and (max-width: 400px) {
 
     /* Body */
+    body {
+        max-width: 400px;
+    }
+
     #wrapper {
-        width: 500px;
+        width: 100%;
     }
 
     /* Header */
@@ -243,24 +249,23 @@ td {
     /* Contentleft */
     .contentleft {
         width: 100%;
-        height: 230px;
+        height: 175px;
     }
 
     .climg {
         margin-left: 35%;
+        margin-top: 25px;
     }
 
     /* contentleft images */
-
     .climg img {
-        width: 50%;
+        width: 60%;
+        height: 60%;
     }
 
     /* Contentright */
-
     .contentright {
         width: 100%;
-
         height: 100%;
     }
 
@@ -269,13 +274,13 @@ td {
     }
 
     table {
-        margin: 0 20px 40px 20px;
+        margin: 0 10px 40px 10px;
     }
 
     /* Contentbot */
-
     .contentbot {
         width: 100%;
+        height: 300px;
     }
 
     /* Contentbot images */
@@ -286,7 +291,190 @@ td {
     /* Footer */
     /* concert detail body */
     /* Concert detail left div */
+    #contentdetleft {
+        width: 100%;
+        height: 100%;
+    }
+
+    #contentdetleft img {
+        width: 75%;
+        margin: 5% 0 5% 12%;
+    }
+
+    #bandimg2 {
+        display: none;
+    }
+
     /* Concert detail right div */
+    #contentdetright {
+        width: 100%;
+        height: 100%;
+    }
+
     /* Slideshow */
 
 }
+
+/* ----------------------------------- Tablet ----------------------------------- */
+
+@media screen and (min-width: 401px) and (max-width: 800px) {
+
+    /* Body */
+    body {
+        max-width: 800px;
+    }
+
+    #wrapper {
+        width: 100%;
+    }
+
+    /* Header */
+    /* Nav */
+    #nav li {
+        width: 100%;
+        display: block;
+        padding: 5px 0 5px 0;
+        text-align: center;
+    }
+
+    /* Table */
+    /* Contentleft */
+    .contentleft {
+        width: 100%;
+        height: 275px;
+    }
+
+    .climg {
+        margin-left: 35%;
+    }
+
+    /* contentleft images */
+    .climg img {
+        width: 50%;
+    }
+
+    /* Contentright */
+    .contentright {
+        width: 100%;
+        height: 100%;
+    }
+
+    h1, h3 {
+        margin-left: 20px;
+    }
+
+    table {
+        margin: 0 auto 20px;
+
+    }
+
+    /* Contentbot */
+    .contentbot {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* Contentbot images */
+    .cbimg {
+        margin: 0 0 50px 20px;
+    }
+
+    .cbimg img {
+        width: 23%;
+        margin-left: 0;
+    }
+
+    /* Footer */
+    /* concert detail body */
+    /* Concert detail left div */
+    #contentdetleft {
+        width: 100%;
+        height: 300px;
+    }
+
+    #contentdetleft img {
+        height: 75%;
+        width: 37.5%;
+        margin: 30px 10px 10px 30px;
+    }
+
+    /* Concert detail right div */
+    #contentdetright {
+        width: 100%;
+        height: 100%;
+    }
+
+    #contentdetright iframe {
+        height: 250px;
+    }
+
+    /* Slideshow */
+
+}
+
+@media screen and (min-width: 401px) and (max-width: 550px) {
+    #contentdetleft {
+        height: 200px;
+    }
+}
+
+/* ---------------------------------------- Detail site <1150 px -------------------------- */
+
+@media screen and (min-width: 801px) and (max-width: 1150px) {
+
+    /* Body */
+    body {
+        max-width: 1150px;
+    }
+
+    #wrapper {
+        width: 100%;
+    }
+
+    /* Header */
+    /* Nav */
+    /* Table */
+    /* Contentleft */
+    /* contentleft images */
+    /* Contentright */
+    /* Contentbot */
+    /* Contentbot images */
+    .cbimg {
+        margin: 10px 0 0 56px;
+    }
+
+    /* Footer */
+    /* concert detail body */
+    /* Concert detail left div */
+    #contentdetleft {
+        width: 100%;
+        height: 450px;
+    }
+
+    #contentdetleft img {
+        height: 75%;
+        width: 37.5%;
+        margin: 55px 0 0 90px;
+    }
+
+    /* Concert detail right div */
+    #contentdetright {
+        width: 100%;
+        height: 570px;
+    }
+
+    #contentdetright iframe {
+        height: 250px;
+    }
+
+    /* Slideshow */
+
+}
+
+@media screen and (min-width: 801px) and (max-width: 900px) {
+    #contentdetright {
+        height: 660px;
+    }
+}
+
+
