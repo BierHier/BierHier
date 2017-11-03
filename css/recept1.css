@@ -2,8 +2,33 @@
     box-sizing: border-box;
 }
 
-body {
-    max-width:1200px;
-    margin:auto;
-    font-family: 'Manuale', sans-serif;
+@media screen and (min-width: 800px){
+
+    body, .wrapper {
+        max-width: 1200px;
+        margin: auto;
+        font-family: 'Manuale', sans-serif;
+    }
+
+    #myTopnav {
+        margin-top: -5px;
+    }
+
+    .tekst {
+        float: left;
+        width: 50%;
+        margin-left: 2%;
+    }
+
+    .image {
+        float: right;
+        width: 45%;
+        text-align: right;
+        margin-right: 2%;
+    }
+
+    h2 {
+        margin-left: 2%;
+    }
+
 }
