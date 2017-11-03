@@ -4,87 +4,114 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Concerten - Queen</title>
-    <link rel="stylesheet" type="text/css" href="css/concerten_responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/concerten.css">
+    <link rel="stylesheet" type="text/css" href="css/contactmenu.css">
 </head>
 <body id="detbody">
 <div id="wrapper">
 
-<div id="header">
-    <img alt="header" src="HTML5 Scrum periode 1 2017/img/concerten/conc_header.jpg">
-</div>
+    <div id="header">
+        <img alt="header" src="HTML5 Scrum periode 1 2017/img/concerten/conc_header.jpg">
+    </div>
+    <div id="nav">
 
-<div id="nav">
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="concerten.html">Concerten</a></li>
-        <li><a href="sportpagina.html">Sport</a></li>
-        <li><a href="recepten.html">Recepten</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
-</div>
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Home</a>
+            <a href="concerten.html">Concerten</a>
+            <a href="sportpagina.html">Sport</a>
+            <a href="recepten.html">Recepten</a>
+            <a href="contact.html">Contact</a>
+            <a href="OverOns.html">Over Ons</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+    </div>
 
-<div id="contentdetleft">
-    <img alt="Queen" src="HTML5 Scrum periode 1 2017/img/concerten/queen-250.jpg">
-    <img alt="Queen" src="HTML5 Scrum periode 1 2017/img/concerten/queen-250.jpg">
-</div>
+    <div id="contentdetleft">
+        <img id="bandimg1" alt="Queen" src="HTML5 Scrum periode 1 2017/img/concerten/queen-250.jpg">
+        <img id="bandimg2" alt="Queen" src="HTML5 Scrum periode 1 2017/img/concerten/queen-250.jpg">
+    </div>
 
-<div id="contentdetright">
-    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-        laborum.
+    <div id="contentdetright">
+        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+            est
+            laborum.
 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-        laborum.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+            est
+            laborum.
 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat.</p>
-    <div id="iframe">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/-tJYN-eG1zk" frameborder="0"
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat.</p>
+
+        <iframe src="https://www.youtube.com/embed/-tJYN-eG1zk" frameborder="0"
                 allowfullscreen></iframe>
+
+        <p id="pp">
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+            est
+            laborum.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+            commodo
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+            est
+            laborum.
+        </p>
     </div>
-    <p id="pp">
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-        laborum.
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-        laborum.
-    </p>
-</div>
 
-<div class="contentbot">
-    <h3>En meer....</h3>
-    <div class="cbimg">
-        <a href="concertdetail1.html"><img
-                src="HTML5 Scrum periode 1 2017/img/concerten/queen-250.jpg"></a>
-        <a href="concertdetail2.html"><img
-                src="HTML5 Scrum periode 1 2017/img/concerten/bocelli-250.jpg"></a>
-        <a href="concertdetail3.html"><img
-                src="HTML5 Scrum periode 1 2017/img/concerten/amon_amarth-250.jpg"></a>
-        <a href="concertdetail4.html"><img
-                src="HTML5 Scrum periode 1 2017/img/concerten/rapalje-250.jpg"></a>
+    <div class="contentbot">
+        <h3>En meer....</h3>
+        <div class="cbimg">
+            <a href="concertdetail1.html"><img
+                    src="HTML5 Scrum periode 1 2017/img/concerten/queen-250.jpg"></a>
+            <a href="concertdetail2.html"><img
+                    src="HTML5 Scrum periode 1 2017/img/concerten/bocelli-250.jpg"></a>
+            <a href="concertdetail3.html"><img
+                    src="HTML5 Scrum periode 1 2017/img/concerten/amon_amarth-250.jpg"></a>
+            <a href="concertdetail4.html"><img
+                    src="HTML5 Scrum periode 1 2017/img/concerten/rapalje-250.jpg"></a>
+        </div>
     </div>
-</div>
 
-<div id="footer">
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="index.html">Concerten</a></li>
-        <li><a href="sportpagina.html">Sport</a></li>
-        <li><a href="index.html">Recepten</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="#">OverOns</a></li>
-    </ul>
-</div>
 
+    <div id="footer">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="concerten.html">Concerten</a></li>
+            <li><a href="sportpagina.html">Sport</a></li>
+            <li><a href="recepten.html">Recepten</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="OverOns.html">Over Ons</a></li>
+        </ul>
+        <img src="EigenLogo/Webity.JPG" alt="foto ontwikkelteam">
+        <p>copyright © roc-dev.com 2017</p>
+    </div>
 </div>
 </body>
 </html>

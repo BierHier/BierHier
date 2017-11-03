@@ -4,6 +4,7 @@
 <head>
     <title>Concerten</title>
     <link rel="stylesheet" type="text/css" href="css/concerten.css">
+    <link rel="stylesheet" type="text/css" href="css/contactmenu.css">
     <script src="slideshow.js" defer></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
@@ -15,13 +16,26 @@
         <img alt="header" src="HTML5 Scrum periode 1 2017/img/concerten/conc_header.jpg">
     </div>
     <div id="nav">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="concerten.html">Concerten</a></li>
-            <li><a href="#Sport">Sport</a></li>
-            <li><a href="#Recepten">Recepten</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+
+        <div class="topnav" id="myTopnav">
+            <a href="index.html">Home</a>
+            <a href="concerten.html">Concerten</a>
+            <a href="sportpagina.html">Sport</a>
+            <a href="recepten.html">Recepten</a>
+            <a href="contact.html">Contact</a>
+            <a href="OverOns.html">Over Ons</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
     </div>
     <div class="contentleft">
         <div class="climg">
@@ -169,12 +183,14 @@
     <div id="footer">
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="index.html">Concerten</a></li>
+            <li><a href="concerten.html">Concerten</a></li>
             <li><a href="sportpagina.html">Sport</a></li>
-            <li><a href="index.html">Recepten</a></li>
+            <li><a href="recepten.html">Recepten</a></li>
             <li><a href="contact.html">Contact</a></li>
-            <li><a href="#">OverOns</a></li>
+            <li><a href="OverOns.html">Over Ons</a></li>
         </ul>
+        <img src="EigenLogo/Webity.JPG" alt="foto ontwikkelteam">
+        <p>copyright © roc-dev.com 2017</p>
     </div>
 </div>
 </body>
