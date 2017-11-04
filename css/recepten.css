@@ -35,11 +35,6 @@ nav li a {
     padding-right: 50px;
 }
 
-h1 {
-    float:left;
-    margin-left:30px;
-    width: 100%;
-}
 /* Wrapper */
 .wrapper {
     background-color: red;
@@ -54,14 +49,31 @@ h1 {
     margin-top:0px;
 }
 
+h1 {
+    float:left;
+    margin-left:30px;
+    width: 100%;
+}
+h1.pagina2 {
+    width:49%;
+}
+
 .recepten {
     width: 50%;
+    float: left;
+    line-height: 30px;
+    margin-left: 30px;
+    text-decoration:none;
+}
+
+.recept {
+    width: 30%;
     float: left;
     line-height: 25px;
     margin-left: 30px;
 }
 
-/* start footer */
+/* Footer */
 h3 {
     margin-left: 20px;
 }
@@ -97,4 +109,3 @@ footer li a {
 footer p {
     text-align: center;
 }
-/* eind footer */
