@@ -40,17 +40,16 @@ nav li a {
 /* Header */
 header {
     height:150px;
-    width:1200px;
-    margin: auto;
 }
 /* Wrapper */
 .wrapper {
     background-color: #4dcfff ;
-    height: 1000px;
-    width: 1200px;
     margin: auto;
 }
 
+.container {
+    margin:auto;
+}
 h1 {
     float:left;
     padding-left:20px;
@@ -113,7 +112,6 @@ article.images {
 
 /* Footer */
 footer{
-    width:1200px;
     margin:auto;
     background-color: grey;
 }
@@ -122,7 +120,7 @@ footer ul {
     list-style-type:none;
     padding: 10px;
     padding-top: 0;
-    margin: 10px;
+    margin: auto;
 }
 
 footer h3 {
@@ -152,26 +150,5 @@ footer a, footer p, footer h3 {
 }
 
 @media all and (min-width:550px) {
-    nav ul {
-        border-top:1px solid white;
-        padding:10px;
-        margin:0;
-    }
 
-    nav li {
-        margin:10px;
-        display:inline;
-        border:none;
-    }
-
-    article.tekst {
-        padding-left:20px;
-        float:left;
-        line-height: 25px;
-    }
-    /* Homepage images */
-    article.image {
-        padding-right:20px;
-        float:right;
-    }
 }

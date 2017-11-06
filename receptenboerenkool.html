@@ -3,28 +3,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boerenkool</title>
-    <link rel="stylesheet" type="text/css" href="css/recepttest.css">
+    <link rel="stylesheet" type="text/css" href="css/receptresp.css">
+    <link rel="stylesheet" type="text/css" href="css/contactmenu.css">
 </head>
 <body>
 <header>
     <img src="EigenLogo/header.jpg">
 </header>
+<!-- start navigatie -->
+<div class="topnav" id="myTopnav">
+    <a href="index.html">Home</a>
+    <a href="concerten.html">Concerten</a>
+    <a href="sportpagina.html">Sport</a>
+    <a href="recepten.html">Recepten</a>
+    <a href="contact.html">Contact</a>
+    <a href="OverOns.html">Over Ons</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+<script>
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+</script>
+<!-- einde navigatie -->
 <div class="wrapper">
-    <!-- Navigatie menu -->
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="concerten.html">Concerten</a></li>
-            <li><a href="sportpagina.html">Sportpagina</a></li>
-            <li><a href="recepten.html">Recepten</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
     <!-- Container -->
     <div class="container">
-        <!-- Section 1 met een article en images -->
-        <section>
             <br><br><h1 class="recept">Boerenkool met worst</h1>
             <article class="image">
                 <img class="img" src="EigenLogo/img.JPG" width="500" height="300">
@@ -41,9 +52,7 @@
                     Nulla venenatis est neque, at facilisis purus dictum venenatis. Sed placerat eget magna dictum lacinia.
                 </p>
             </article>
-        </section>
 
-        <section>
             <br><br>
             <article class="images">
                 <img class="images1" src="EigenLogo/img.JPG" width="250" height="150">
@@ -51,10 +60,8 @@
                 <img class="images2" src="EigenLogo/img.JPG" width="250" height="150">
                 <img class="images2" src="EigenLogo/img.JPG" width="250" height="150">
             </article>
-        </section>
 
     </div> <!-- Container -->
-</div> <!-- Wrapper -->
 <footer>
     <h3>Sitelinks</h3>
     <img src="EigenLogo/img.JPG" alt="foto ontwikkelteam">
@@ -67,5 +74,6 @@
     </ul>
     <p>copyright © roc-dev.com 2017</p>
 </footer>
+</div> <!-- Wrapper -->
 </body>
 </html>
