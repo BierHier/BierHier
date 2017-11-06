@@ -20,6 +20,10 @@ body {
     background-color: #e7e5eb;
 }
 
+header img{
+    min-height: 60px;
+}
+
 #wrapper {
     margin: 0;
     height: 100%;
