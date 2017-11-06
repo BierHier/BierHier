@@ -1,0 +1,60 @@
+/* Code written by Timothy van Keulen */
+
+* {
+    box-sizing: border-box;
+}
+
+body, header, .wrapper, .container, footer {
+    max-width:1200px;
+    margin:auto;
+}
+
+header img {
+    width:100%;
+}
+
+.container {
+    background-color: #4dcfff ;
+    height:100%;
+}
+
+h1 {
+    padding-left:20px;
+}
+
+/* Articles */
+article.tekst {
+    line-height: 25px;
+    float:left;
+    width:60%;
+    padding-left:20px;
+}
+/* Homepage images */
+article.image {
+    float:right;
+    width:40%;
+    padding-left:20px;
+}
+
+.image1 {
+    padding-right:20px;
+}
+
+footer {
+    padding-left:20px;
+    background-color: grey;
+}
+
+@media all and (max-width:800px) {
+    article.tekst {
+        width:100%;
+    }
+
+    article.image {
+        width:100%;
+    }
+
+    img {
+        height:100%;
+    }
+}
