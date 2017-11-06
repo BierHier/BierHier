@@ -1,62 +1,62 @@
+/* CSS contact Mark Jeff van Haastert */
+
+/**
+ *      Telefoon layout
+ *      t/m 400 px
+ */
+
 * {
     box-sizing: border-box;
 }
 
+h2 {
+    margin-left: 1%;
+}
+
 body {
-    font-family: 'Manuale', sans-serif;
-    width: 1000px;
-    margin: auto;
-    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #e7e5eb;
 }
 
 #wrapper {
+    margin-top: 0;
+    margin-left: 5px;
     height: 100%;
-    background-color: #eaf6fa;
-    margin: 0;
-    padding: 0;
+    background-color: #b6e2fa;
 }
 
-
-#container{
-    height: 100%;
-    padding-left: 1%;
+.topnav {
+    margin-top: -6px;
 }
-/* start style navigatie balk */
-
-#nav a {
-    font-weight: bold;
-    text-decoration: none;
-}
-
-#nav ul{
-    list-style: none;
-    padding-left: 2%;
-}
-
-/* einde style navigatie balk */
 
 #googlemap {
-    margin-left: 1%;
-    margin-right: 1%;
-    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #adresgegevens {
     line-height: 25px;
-    margin-left: 1%;
-    margin-right: 1%;
-
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
 }
 
 #formulier {
-    margin-left: 1%;
-    margin-right: 1%;
-    text-align: left;
-    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    max-width: 400px;
 }
 
-#formulier input, textarea{
+#formulier input, textarea {
     width: 100%;
+    max-width: 400px;
+}
+
+ul li a {
+    margin-top: 1%;
 }
 
 /* start style footer */
@@ -68,24 +68,26 @@ body {
 
 }
 
-#footer h3{
+#footer li {
+    margin-right: 0;
+}
+
+#footer h3 {
     text-align: center;
 }
 
 #footer img {
     width: 200px;
     padding: 10px;
-    padding-top: 0;
     display: block;
-    margin:auto;
+    margin: auto;
 }
 
 #footer ul {
     list-style-type: none;
     margin: 10px;
-    padding: 10px;
-    padding-top: 0;
     text-align: center;
+    padding-left: 0;
 }
 
 #footer li a {
@@ -96,9 +98,122 @@ body {
 #footer p {
     text-align: center;
 }
-/* eind einde footer */
 
-@media all and (max-width: 300px){
+/*      Einde telefoon layout */
 
+/**
+ *      Tablet layout
+ *      400 px t/m 800 px
+ */
+@media all and (min-width: 400px) {
+    #googlemap {
+        width: 100%;
 
+    }
+
+    #adresgegevens {
+        width: 45%;
+        float: right;
+    }
+
+    #formulier {
+        text-align: left;
+        display: flex;
+    }
 }
+
+/*      Einde Tablet layout */
+
+/**
+ *      PC layout
+ *      800 px t/m 1200 px
+ */
+@media all and (min-width: 800px) {
+
+    #googlemap {
+        float: left;
+        width: 55%;
+    }
+
+    #adresgegevens {
+        float: right;
+        width: 40%;
+    }
+
+    form {
+        margin-left: 3%;
+    }
+
+    #formulier {
+        float: left;
+    }
+
+    #formulier.versturen {
+        max-width: 100px;
+        float: right;
+    }
+}
+
+/* einde PC layout */
+
+/**
+ *      Maximum layout van 1200 px
+ */
+
+@media all and (min-width: 1200px) {
+
+    #wrapper, header {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    #header img {
+        max-height: 150px;
+    }
+
+    #formulier {
+        line-height: 25px;
+        margin-top: 2%;
+        clear: left;
+    }
+
+    label {
+        text-align: right;
+        clear: both;
+        float: left;
+        margin-right: 27px;
+        max-width: 50px;
+    }
+
+    #formulier input, textarea {
+        max-width: 250px;
+        float: right;
+
+    }
+
+    #adresgegevens {
+        padding-top: -10px;
+        text-align: left;
+    }
+
+    #footer img {
+        float: right;
+    }
+
+    #footer ul {
+        text-align: left;
+        float: left;
+    }
+
+    #footer ul a {
+        color: white;
+    }
+
+    #footer p {
+        color: white;
+        margin-bottom: 0;
+        padding-top: 11%;
+    }
+}
+
+/* einde Max layout */

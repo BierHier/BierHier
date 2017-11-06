@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Manuale', sans-serif;
+    width: 1000px;
+    margin: auto;
+    background-color: white;
+}
+
+#wrapper {
+    height: 100%;
+    background-color: #eaf6fa;
+    margin: 0;
+    padding: 0;
+}
+
+
+#container{
+    height: 100%;
+    padding-left: 1%;
+}
+/* start style navigatie balk */
+
+#nav a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#nav ul{
+    list-style: none;
+    padding-left: 2%;
+}
+
+/* einde style navigatie balk */
+
+#googlemap {
+    margin-left: 1%;
+    margin-right: 1%;
+    width: auto;
+}
+
+#adresgegevens {
+    line-height: 25px;
+    margin-left: 1%;
+    margin-right: 1%;
+
+}
+
+#formulier {
+    margin-left: 1%;
+    margin-right: 1%;
+    text-align: left;
+    width: auto;
+}
+
+#formulier input, textarea{
+    width: 100%;
+}
+
+/* start style footer */
+
+#footer {
+    background-color: grey;
+    width: 100%;
+    padding: 0 10px 10px;
+
+}
+
+#footer h3{
+    text-align: center;
+}
+
+#footer img {
+    width: 200px;
+    padding: 10px;
+    padding-top: 0;
+    display: block;
+    margin:auto;
+}
+
+#footer ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    padding-top: 0;
+    text-align: center;
+}
+
+#footer li a {
+    color: black;
+    text-decoration: none;
+}
+
+#footer p {
+    text-align: center;
+}
+/* eind einde footer */
+
+@media all and (max-width: 300px){
+
+
+}
