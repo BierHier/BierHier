@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.footer{
+    margin: auto;
+    background-color: black;
+}
+
 body, header, .wrapper, .container, footer {
     max-width:1200px;
     margin:auto;
@@ -44,18 +49,18 @@ footer {
     background-color: grey;
 }
 
-@media all and (max-width:800px) {
-    article.tekst {
-        width:100%;
-        background-color:#4dcfff;
-    }
+/*@media all and (max-width:800px) {*/
+    /*article.tekst {*/
+        /*width:100%;*/
+        /*background-color:#4dcfff;*/
+    /*}*/
 
-    article.image {
-        width:100%;
-        background-color:#4dcfff;
-    }
+    /*article.image {*/
+        /*width:100%;*/
+        /*background-color:#4dcfff;*/
+    /*}*/
 
-    img {
-        height:100%;
-    }
-}
+    /*img {*/
+        /*height:100%;*/
+    /*}*/
+/*}*/
