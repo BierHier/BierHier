@@ -1,10 +1,15 @@
 /* CSS contact Mark Jeff van Haastert */
 
+/**
+ *      Telefoon layout
+ *      t/m 400 px
+ */
+
 * {
     box-sizing: border-box;
 }
 
-h2{
+h2 {
     margin-left: 1%;
 }
 
@@ -12,10 +17,11 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Noto Sans', sans-serif;
+    background-color: #e7e5eb;
 }
 
 #wrapper {
-    margin-top: 0px;
+    margin-top: 0;
     margin-left: 5px;
     height: 100%;
     background-color: #b6e2fa;
@@ -23,10 +29,6 @@ body {
 
 .topnav {
     margin-top: -6px;
-}
-
-#container {
-    height: 100%;
 }
 
 #googlemap {
@@ -38,6 +40,7 @@ body {
     line-height: 25px;
     margin-left: 10px;
     margin-right: 10px;
+    text-align: center;
 }
 
 #formulier {
@@ -52,7 +55,7 @@ body {
     max-width: 400px;
 }
 
-ul li a{
+ul li a {
     margin-top: 1%;
 }
 
@@ -65,8 +68,7 @@ ul li a{
 
 }
 
-#footer li{
-    max-width: 200px;
+#footer li {
     margin-right: 0;
 }
 
@@ -84,10 +86,8 @@ ul li a{
 #footer ul {
     list-style-type: none;
     margin: 10px;
-    padding: 10px;
-    padding-top: 0;
     text-align: center;
-    float: left;
+    padding-left: 0;
 }
 
 #footer li a {
@@ -99,9 +99,13 @@ ul li a{
     text-align: center;
 }
 
-/* Tablet layout */
+/*      Einde telefoon layout */
 
-@media screen and (min-width: 400px) {
+/**
+ *      Tablet layout
+ *      400 px t/m 800 px
+ */
+@media all and (min-width: 400px) {
     #googlemap {
         width: 100%;
 
@@ -116,10 +120,15 @@ ul li a{
         text-align: left;
         display: flex;
     }
-
 }
 
-@media screen and (min-width: 800px) {
+/*      Einde Tablet layout */
+
+/**
+ *      PC layout
+ *      800 px t/m 1200 px
+ */
+@media all and (min-width: 800px) {
 
     #googlemap {
         float: left;
@@ -145,13 +154,20 @@ ul li a{
     }
 }
 
-@media screen and (min-width: 1200px) {
+/* einde PC layout */
+
+/**
+ *      Maximum layout van 1200 px
+ */
+
+@media all and (min-width: 1200px) {
 
     #wrapper, header {
         max-width: 1200px;
         margin: auto;
     }
-    #header img{
+
+    #header img {
         max-height: 150px;
     }
 
@@ -177,9 +193,6 @@ ul li a{
 
     #adresgegevens {
         padding-top: -10px;
-    }
-
-    #footer li, #footer h3, {
         text-align: left;
     }
 
@@ -187,8 +200,20 @@ ul li a{
         float: right;
     }
 
-    #footer a{
-        text-align: center;
+    #footer ul {
+        text-align: left;
+        float: left;
+    }
 
+    #footer ul a {
+        color: white;
+    }
+
+    #footer p {
+        color: white;
+        margin-bottom: 0;
+        padding-top: 11%;
     }
 }
+
+/* einde Max layout */
