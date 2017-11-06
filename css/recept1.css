@@ -2,6 +2,15 @@
     box-sizing: border-box;
 }
 
+footer{
+    background-color: black;
+    margin: auto;
+}
+
+.wrapper{
+    background-color: #4697e4;
+}
+
 @media screen and (min-width: 800px){
 
     body, .wrapper {
