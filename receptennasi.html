@@ -3,69 +3,72 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nasi</title>
-    <link rel="stylesheet" type="text/css" href="css/recepttest.css">
+    <link rel="stylesheet" type="text/css" href="css/recepten.css">
+    <link rel="stylesheet" type="text/css" href="css/contactmenu.css">
 </head>
 <body>
-<header>
-    <img src="EigenLogo/header.jpg">
-</header>
 <div class="wrapper">
-    <!-- Navigatie menu -->
-    <nav>
+    <header>
+        <img class="img" src="EigenLogo/food%20banner.jpg" height="196" alt="FoodBanner">
+    </header>
+    <!-- start navigatie -->
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="concerten.html">Concerten</a>
+        <a href="sportpagina.html">Sport</a>
+        <a href="recepten.html">Recepten</a>
+        <a href="contact.html">Contact</a>
+        <a href="OverOns.html">Over Ons</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+    <!-- einde navigatie -->
+    <br><br><h1>Nasi</h1>
+    <article class="image">
+        <img class="img" src="HTML5%20Scrum%20periode%201%202017/img/recepten/nasi.jpg" alt="Nasi">
+    </article>
+    <article class="tekst">
+        <p>
+            <b>Recept</b><br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices tincidunt libero sed tincidunt.
+            In sed quam ac diam congue cursus. In dignissim nisl congue ultricies tristique. Maecenas ac lectus id risus rutrum volutpat quis vel sem. <br><br>
+            <b>Ingredienten</b><br>
+            Donec interdum augue ac ex tristique lobortis.<br><br>
+            <b>Bereidingswijze</b><br>
+            Cras non odio lacus. Pellentesque pulvinar ligula purus, ac bibendum nibh pulvinar et.
+            Nulla venenatis est neque, at facilisis purus dictum venenatis. Sed placerat eget magna dictum lacinia.
+        </p>
+    </article>
+    <article class="images">
+        <img class="images1" src="HTML5%20Scrum%20periode%201%202017/img/recepten/nasi.jpg" alt="Nasi">
+        <img class="images1" src="HTML5%20Scrum%20periode%201%202017/img/recepten/nasi.jpg" alt="Nasi">
+        <img class="images2" src="HTML5%20Scrum%20periode%201%202017/img/recepten/nasi2.JPG" alt="Nasi">
+        <img class="images2" src="HTML5%20Scrum%20periode%201%202017/img/recepten/nasi2.JPG" alt="Nasi">
+    </article>
+    <!-- Footer -->
+    <footer style="clear: both">
+        <img src="EigenLogo/Webity.JPG" alt="Logo">
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="concerten.html">Concerten</a></li>
             <li><a href="sportpagina.html">Sportpagina</a></li>
             <li><a href="recepten.html">Recepten</a></li>
             <li><a href="contact.html">Contact</a></li>
+            <li><a href="OverOns.html">OverOns</a></li>
         </ul>
-    </nav>
-    <!-- Container -->
-    <div class="container">
-        <!-- Section 1 met een article en images -->
-        <section>
-            <br><br><h1 class="recept">Nasi</h1>
-            <article class="image">
-                <img class="img" src="EigenLogo/img.JPG" width="500" height="300">
-            </article>
-            <article class="tekst">
-                <p>
-                    <b>Recept</b><br>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices tincidunt libero sed tincidunt.
-                    In sed quam ac diam congue cursus. In dignissim nisl congue ultricies tristique. Maecenas ac lectus id risus rutrum volutpat quis vel sem. <br><br>
-                    <b>Ingredienten</b><br>
-                    Donec interdum augue ac ex tristique lobortis.<br><br>
-                    <b>Bereidingswijze</b><br>
-                    Cras non odio lacus. Pellentesque pulvinar ligula purus, ac bibendum nibh pulvinar et.
-                    Nulla venenatis est neque, at facilisis purus dictum venenatis. Sed placerat eget magna dictum lacinia.
-                </p>
-            </article>
-        </section>
-
-        <section>
-            <br><br>
-            <article class="images">
-                <img class="images1" src="EigenLogo/img.JPG" width="250" height="150">
-                <img class="images1" src="EigenLogo/img.JPG" width="250" height="150">
-                <img class="images2" src="EigenLogo/img.JPG" width="250" height="150">
-                <img class="images2" src="EigenLogo/img.JPG" width="250" height="150">
-            </article>
-        </section>
-
-    </div> <!-- Container -->
+        <p>copyright © roc-dev.com 2017</p>
+    </footer>
 </div> <!-- Wrapper -->
-<footer>
-    <h3>Sitelinks</h3>
-    <img src="EigenLogo/img.JPG" alt="foto ontwikkelteam">
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="concerten.html">Concerten</a></li>
-        <li><a href="sportpagina.html">Sportpagina</a></li>
-        <li><a href="recepten.html">Recepten</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
-    <p>copyright © roc-dev.com 2017</p>
-</footer>
 </body>
 </html>
