@@ -9,12 +9,17 @@ body, header, .wrapper, .container, footer {
     margin:auto;
 }
 
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
 header img {
     width:100%;
 }
 
 .topnav {
     margin-top:-5px;
+    font-family: 'Muli', sans-serif;
 }
 
 .wrapper {
